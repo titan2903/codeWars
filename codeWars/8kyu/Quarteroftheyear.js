@@ -6,3 +6,8 @@ const quarterOf = (month) => {
     else
         return 4
 }
+
+
+console.log(quarterOf(3), 1)
+console.log(quarterOf(8), 3)
+console.log(quarterOf(11), 4)
